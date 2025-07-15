@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Candies {
+public class Candies12 {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		int n = scan.nextInt();
@@ -33,3 +33,8 @@ public class Candies {
 	}
 
 }
+
+
+
+//second commit will happen
+
