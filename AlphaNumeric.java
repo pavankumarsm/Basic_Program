@@ -15,6 +15,6 @@ public class AlphaNumeric {
 			}
 		}
 		System.out.println(count);
+	}
 }
 
-}
