@@ -29,6 +29,8 @@ public class DiffBwSumEvenOddNum {
 		    	System.out.println(-evenSum+oddSum );
 		    else
 		    	System.out.println(0);
+		
 	}
 
 }
+
