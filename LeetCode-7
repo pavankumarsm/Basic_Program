@@ -1,0 +1,24 @@
+
+class Solution {
+   public int reverse(int x) {
+    long rev = 0; 
+    int y = Math.abs(x);
+
+    while (y > 0) {
+        int d = y % 10;
+        rev = rev * 10 + d;
+        y = y / 10;
+    }
+
+    if (x < 0) {
+        rev = -rev;
+    }
+
+    if (rev > Integer.MAX_VALUE || rev < Integer.MIN_VALUE) {
+        return 0;
+    }
+
+    return (int) rev;
+  }
+
+}
